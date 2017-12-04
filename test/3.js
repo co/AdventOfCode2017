@@ -14,11 +14,11 @@ console.log("Test case 1.4: " + (solution.memoryDistance(1024) == 31));
 
 console.log("Result: " + solution.memoryDistance(265149))
 
-/*
-console.log("Test case 2.1: " + (solution.isValidPassphrase2("abcde fghij") == true));
-console.log("Test case 2.2: " + (solution.isValidPassphrase2("abcde xyz ecdab") == false));
-console.log("Test case 2.3: " + (solution.isValidPassphrase2("a ab abc abd abf abj") == true));
-console.log("Test case 2.3: " + (solution.isValidPassphrase2("iiii oiii ooii oooi oooo") == true));
-console.log("Test case 2.3: " + (solution.isValidPassphrase2("oiii ioii iioi iiio") == false));
-console.log("Result: " + solution.countValidPassphrases2(input))
-*/
+
+console.log("Test case 2.1: " + (solution.getFirstNumberGreaterThan(1) == 2));
+console.log("Test case 2.2: " + (solution.getFirstNumberGreaterThan(11) == 23));
+console.log("Test case 2.3: " + (solution.getFirstNumberGreaterThan(26) == 54));
+console.log("Test case 2.4: " + (solution.getFirstNumberGreaterThan(330) == 351));
+console.log("Test case 2.5: " + (solution.getFirstNumberGreaterThan(747) == 806));
+
+console.log("Result: " + solution.getFirstNumberGreaterThan(265149))
