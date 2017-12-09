@@ -104,10 +104,6 @@ module.exports = {
             this.directionIndex = 0
         }
         
-        turnRight() {
-            this.directionIndex = (this.directionIndex - 1 + directions.length) % directions.length
-        }
-        
         turnLeft() {
             this.directionIndex = (this.directionIndex + 1) % directions.length
         }
